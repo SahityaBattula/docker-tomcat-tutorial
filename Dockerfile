@@ -1,5 +1,5 @@
-FROM lakshmi1994/tomcat:v2
-LABEL Author="lakshmi"
+FROM shiwansh/tomcat:v1
+LABEL Author="shiwansh"
 LABEL description="Use dockertomcat image as base image for dockertomcat deployment"
 USER root
 COPY  *.war /usr/local/tomcat/webapps/
