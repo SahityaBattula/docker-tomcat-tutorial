@@ -1,4 +1,4 @@
-FROM shiwansh/tomcat
+FROM shiwansh/tomcat:v1
 LABEL Author="shiwansh"
 LABEL description="Use dockertomcat image as base image for dockertomcat deployment"
 USER root
